@@ -2,5 +2,3 @@ function(N,samples,p){
 BernFrame <- matrix(rbinom(samples*N, 1, p), ncol=samples, nrow=N)
 return(BernFrame)
 }
-
-## test
